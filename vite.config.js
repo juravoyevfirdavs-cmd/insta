@@ -8,6 +8,9 @@ const BACKEND_URL = 'http://localhost:5000'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // GitHub Pages uchun repozitoriya nomini ko'rsatish SHART
+  base: '/insta/', 
+  
   plugins: [
     vue(),
     vueDevTools(),
